@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acp.Career", "Acp.Career\Acp.Career.csproj", "{E6469BE6-3E14-45E9-80FE-F2987477BE51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F777222-FE47-425A-90F6-75D739967A5C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6469BE6-3E14-45E9-80FE-F2987477BE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6469BE6-3E14-45E9-80FE-F2987477BE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6469BE6-3E14-45E9-80FE-F2987477BE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6469BE6-3E14-45E9-80FE-F2987477BE51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11BC04F3-F01C-43F2-9702-C4CC2EB3F024}
+	EndGlobalSection
+EndGlobal

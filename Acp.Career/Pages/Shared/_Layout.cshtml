@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <img class="logo" src="~/img/logo.svg" />
+        <span class="slogan">Gemeinsam<br>mehr erreichen.</span>
+    </header>
+    <div class="container">
+        <aside>
+            <img class="foto" src="~/img/foto.jpg" />
+            <nav>
+                <p class="lead">Ich biete mehr als nur eine Position für die Lohn- und Gehaltsabrechnung: Ein echtes Interesse für das kollektive Gesamtergebnis statt dem eigenes Süppchen Kochen.</p>
+                <hr />
+                <p><strong>Kontakt</strong></p>
+                <p>Ich freue mich über Ihre Rückmeldung, selbst ohne Anschreiben, Lebenslauf oder Foto.</p>
+                <address>
+                    <strong>Herr Nikita Sharov</strong><br />
+                    Actin Uranium<br />
+                    Mariatroster Straße 172<br />
+                    A-8044 Graz<br />
+                    <a href="https://www.235u.net">www.235u.net</a>
+                </address>
+                <button>Online anwerben</button>
+                <hr />
+                <div>
+                    <a href="mailto:nikita.sharov@235u.net">
+                        <img class="icon" src="~/img/mail.png" />
+                    </a>
+                </div>
+            </nav>
+        </aside>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

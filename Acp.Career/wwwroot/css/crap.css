@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'Apex New Medium';
+    src: url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexNewWeb-Medium.eot');
+    src: url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexNewWeb-Medium.woff') format('woff'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexNewWeb-Medium.eot') format('embedded-opentype'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexNewWeb-Medium.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Apex New Book';
+    src: url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexNewWeb-Book.eot');
+    src: url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexNewWeb-Book.woff') format('woff'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexNewWeb-Book.eot') format('embedded-opentype'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexNewWeb-Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Apex Rounded Book';
+    src: url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Book.eot');
+    src: url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Book.eot?#iefix') format('embedded-opentype'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Book.woff2') format('woff2'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Book.woff') format('woff'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Book.ttf') format('truetype'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Book.svg#ApexRounded-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apex Rounded Medium';
+    src: url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Medium.eot');
+    src: url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Medium.eot?#iefix') format('embedded-opentype'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Medium.woff2') format('woff2'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Medium.woff') format('woff'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Medium.ttf') format('truetype'), url('https://jobs.acp.at/Content/jobAd2019/fonts/ApexRounded-Medium.svg#ApexRounded-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.jobAd {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Apex New Book', Arial;
+    font-size: 16px;
+    line-height: 1.3;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+    color: #2B2A2F;
+}
+
+    .jobAd * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .jobAd a {
+        color: #2B2A2F;
+        text-decoration: none;
+    }
+
+    .jobAd strong {
+        font-family: 'Apex New Medium', Arial;
+    }
+
+    .jobAd ul {
+        margin: 0 0 0 18px;
+    }
+
+        .jobAd ul li {
+            list-style: disc;
+            color: #2B2A2F;
+        }
+
+    .jobAd .jobAdHeader img {
+        width: 100%;
+    }
+
+    .jobAd strong {
+        font-family: Apex Rounded Medium,sans-serif;
+        font-weight: 500;
+    }
+
+    .jobAd h1 {
+        font-family: 'Apex New Medium', Arial;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 1.2;
+        margin: 0 0 10px;
+        color: #2B2A2F;
+    }
+
+    .jobAd h2 {
+        font-family: 'Apex New Book', Arial;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 1.2;
+        margin: 20px 0;
+        color: #2B2A2F;
+    }
+
+    .jobAd h3 {
+        font-family: 'Apex New Medium', Arial;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 1.2;
+        margin: 0 0 10px;
+        color: #f00f40;
+    }
+
+    .jobAd h4 {
+        font-family: 'Apex New Medium', Arial;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.2;
+        color: #2B2A2F;
+    }
+
+    .jobAd .jobAdContent {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        position: relative;
+        border-right: 1px solid #ebeced;
+        border-bottom: 1px solid #ebeced;
+    }
+
+    .jobAd .jobBlock {
+        margin: 0 0 20px;
+    }
+
+    .jobAd .applyButton {
+        background: #2B2A2F;
+        color: #fff;
+        display: inline-block;
+        font-weight: bold;
+        padding: 14px 50px;
+        text-decoration: none;
+        border-radius: 3px;
+        font-family: 'Apex New Medium';
+    }
+
+    .jobAd .jobAdHeader {
+        width: 100%;
+        background-color: #f00f40;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+        .jobAd .jobAdHeader img {
+            max-width: 120px;
+            position: absolute;
+            top: 0;
+            left: 5%;
+        }
+
+        .jobAd .jobAdHeader p {
+            font-family: 'Apex Rounded Book';
+            font-size: 90px;
+            color: #fff;
+            font-weight: 600;
+            text-align: center;
+            width: 50%;
+            margin: 60px 60px 60px 0;
+            line-height: 1;
+        }
+
+    .jobAd .onlyMobile {
+        display: none;
+    }
+
+    .jobAd .jobLeft {
+        width: 35%;
+        background-color: #ebeced;
+    }
+
+        .jobAd .jobLeft > img {
+            width: 100%;
+            margin-top: -170px;
+            position: relative;
+        }
+
+    .jobAd .jobInfo {
+        padding: 60px;
+    }
+
+    .jobAd .jobIntroduction {
+        font-size: 22px;
+    }
+
+    .jobAd .jobContact {
+        margin-top: 90px;
+    }
+
+        .jobAd .jobContact::after, .jobAd .jobContact::before {
+            content: "";
+            width: 100px;
+            height: 1px;
+            background-color: #2B2A2F;
+            display: block;
+            margin: 40px 0;
+        }
+
+        .jobAd .jobContact p {
+            margin: 30px 0;
+        }
+
+    .jobAd .jobShareIcons {
+        margin: 30px 0;
+    }
+
+    .jobAd .jobShare img {
+        padding-right: 10px;
+        padding-top: 10px;
+        width: 48px;
+    }
+
+    .jobAd .jobSiegel {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+        .jobAd .jobSiegel img {
+            max-width: 85px;
+            padding-top: 10px;
+            padding-right: 10px;
+        }
+
+    .jobAd .jobRight {
+        width: 65%;
+        padding: 40px 60px 60px;
+    }
+
+        .jobAd .jobRight h3 {
+            margin-top: 40px;
+        }
+
+        .jobAd .jobRight > img {
+            width: 250px;
+            position: absolute;
+            bottom: 60px;
+            right: 0;
+        }
+
+    .jobAd .jobBlock:last-of-type {
+        margin-bottom: 135px;
+    }
+
+    .jobAd .showOnPrint {
+        display: none;
+    }
+
+@media (max-width: 991px) {
+    .jobAd .jobAdHeader p {
+        font-size: 73px;
+    }
+
+    .jobAd .jobRight {
+        padding: 0 20px 20px;
+    }
+
+    .jobAd .jobInfo {
+        padding: 20px;
+    }
+
+    .jobAd h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .jobAd .jobAdContent {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .jobAd .jobLeft, .jobAd .jobRight {
+        width: 100%;
+    }
+
+    .jobAd .jobRight {
+        position: relative;
+        padding-bottom: 190px;
+    }
+
+    .jobAd .jobAdHeader img {
+        max-width: 80px;
+    }
+
+    .jobAd .onlyMobile {
+        display: block;
+    }
+
+    .jobAd .jobAdHeader .onlyMobile {
+        bottom: -20%;
+        position: absolute;
+        left: 0;
+        top: unset;
+        width: 230px;
+        max-width: unset;
+    }
+
+    .jobAd .jobAdHeader p {
+        font-size: 55px;
+        margin: 60px 20px 60px 0;
+    }
+
+    .jobAd .onlyScreen {
+        display: none;
+    }
+
+    .jobAd .jobContact {
+        margin-top: 0;
+    }
+
+        .jobAd .jobContact::before {
+            content: unset;
+        }
+
+    .jobAd .jobInfo {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 599px) {
+    .jobAd .jobAdHeader .onlyMobile {
+        display: none;
+    }
+
+    .jobAd .jobAdHeader p {
+        width: 70%;
+        font-size: 50px;
+    }
+
+    .jobAd .jobRight > img {
+        max-width: 200px;
+    }
+
+    .jobAd .jobAdContent {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 439px) {
+    .jobAd .jobAdHeader p {
+        font-size: 40px;
+        margin-top: 70px;
+    }
+
+    .jobAd .jobAdHeader img {
+        max-width: 60px;
+    }
+}
+
+body {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
