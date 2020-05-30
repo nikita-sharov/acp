@@ -1,13 +1,13 @@
 @font-face {
     font-display: swap;
-    font-family: "Apex New Medium";
-    src: local("Apex New Medium"), url('../fonts/apex-new-medium.woff') format('woff');
+    font-family: "Apex New Book";
+    src: local("Apex New Book"), url('../fonts/apex-new-book.woff') format('woff');
 }
 
 @font-face {
     font-display: swap;
-    font-family: "Apex New Book";
-    src: local("Apex New Book"), url('../fonts/apex-new-book.woff') format('woff');
+    font-family: "Apex New Medium";
+    src: local("Apex New Medium"), url('../fonts/apex-new-medium.woff') format('woff');
 }
 
 @font-face {
@@ -35,6 +35,8 @@
     box-sizing: border-box;
 }
 
+/*Sectioning root*/
+
 body {
     color: var(--dark-gray);
     font-family: "Apex New Book";
@@ -58,7 +60,7 @@ img {
 }
 
 .masthead-slogan {
-    color: white;
+    color: var(--pure-white);
     font-family: "Apex Rounded Medium";
     font-size: 90px;
     line-height: 1;
@@ -89,18 +91,22 @@ address {
 }
 
 strong {
-    font-family: 'Apex New Medium';
+    font-family: "Apex New Medium";
 }
 
-button {
-    display: block;
-    font-family: "Apex New Medium";
+.button {
     background-color: var(--dark-gray);
-    color: white;
     border: none;
-    /*border-radius: 3px;*/
-    padding: 14px 50px;
+    color: var(--pure-white);
+    font-family: "Apex New Medium";
     font-size: 16px;
+    padding: 14px 50px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: var(--dark-gray);
 }
 
 hr {
@@ -126,8 +132,8 @@ h2 {
     line-height: 1.2;
 }
 
-h1 {    
-    font-size: 50px;    
+h1 {
+    font-size: 50px;
     margin: 0 0 20px;
 }
 
@@ -155,7 +161,7 @@ ul {
     margin-top: 32px;
 }
 
-    .red-label > img {
-        margin-right: -61px;
-        width: 250px;
-    }
+.red-label-illustration {
+    margin-right: -61px;
+    width: 250px;
+}

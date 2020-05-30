@@ -1,6 +1,8 @@
 # acp
 Job application in code
 
+https://jeremylindsayni.wordpress.com/2019/02/18/adding-middleware-to-your-net-core-mvc-pipeline-that-formats-and-indents-html-output/
+
 Miteinander weiter denken ist aus 2 Schriftarten gesetzt, die sich nur geringfügig unterscheiden; schaut nicht nach einem vollständigen Satz aus (Punkt); schlecht / inkosequent ausgerichtet
 
 Auf karriere.at überschneidet sich das Logo mit dem Photo
@@ -48,3 +50,7 @@ Nikita Sharov
 Dies würde eine gewisse Transparenz sowie . Von einem echten Team, dessen Mitglieder einer Berufung nachgehen, sollte es kein Problem sein.
 
 Die logische Document Outline ist falsch.
+
+Lebenslauf: https://de.wikipedia.org/wiki/Microsoft_Windows
+
+Zeitleisten für: Sprachen, IDEs, DBMSs, Arbeitgeber, Branchen, Plattformen
