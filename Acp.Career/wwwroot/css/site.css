@@ -26,6 +26,7 @@
     --bright-red: #f00f40;
     --dark-gray: #2b2a2f;
     --light-gray: #ebeced;
+    --pure-black: #000;
     --pure-white: #fff;
 }
 
@@ -81,18 +82,33 @@ aside {
     margin-top: -170px;
 }
 
+.killer-argument::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: var(--dark-gray);
+    margin-top: 40px;
+    display: block;
+}
+
 nav {
     padding: 60px;
 }
 
 address {
     font-style: normal;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
-strong {
-    font-family: "Apex New Medium";
+a {
+    text-decoration: none;
+    color: var(--dark-gray);
 }
+
+    a:hover {
+        text-decoration: underline;
+        color: var(--pure-black);
+    }
 
 .button {
     background-color: var(--dark-gray);
@@ -101,24 +117,14 @@ strong {
     font-family: "Apex New Medium";
     font-size: 16px;
     padding: 14px 50px;
+    display: inline-block;
 }
 
-a,
-a:hover {
-    text-decoration: none;
-    color: var(--dark-gray);
-}
-
-hr {
-    border: none;
-    border-top: 1px solid var(--dark-gray);
-    margin: 40px 0;
-    width: 100px;
-}
-
-.icon {
-    width: 38px;
-}
+    .button:hover {
+        background-color: var(--pure-black);
+        color: var(--pure-white);
+        text-decoration: none;
+    }
 
 article {
     border-right: 1px solid var(--light-gray);
@@ -127,7 +133,8 @@ article {
 }
 
 h1,
-h2 {
+h2,
+.h2 {
     font-family: "Apex New Medium";
     line-height: 1.2;
 }
@@ -137,10 +144,14 @@ h1 {
     margin: 0 0 20px;
 }
 
-h2 {
-    color: var(--bright-red);
+h2,
+.h2 {
     font-size: 18px;
     margin: 40px 0 10px;
+}
+
+h2 {
+    color: var(--bright-red);
 }
 
 p {
