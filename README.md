@@ -1,5 +1,132 @@
 # acp
+
 Job application in code
+
+```csharp
+[SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Required")]
+public class Startup
+{
+    public Startup(IConfiguration configuration)
+    {
+        Configuration = configuration;
+    }
+
+    public IConfiguration Configuration { get; }
+
+    public void ConfigureServices(IServiceCollection services) => services.AddRazorPages();
+
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        if (env.IsDevelopment())
+        {
+            app.UseBrowserLink();
+        }
+        else
+        {
+            app.UseHsts();
+        }
+
+        app.UseDeveloperExceptionPage();
+        app.UseHttpsRedirection();
+        app.UseStaticFiles(
+            new StaticFileOptions
+            {
+                OnPrepareResponse = (context) =>
+                {
+                    const int CachePeriodInSeconds = 31_536_000; // 1 year
+                    string cacheControlHeaderValue = $"public, max-age={CachePeriodInSeconds}";
+                    context.Context.Response.Headers.Append(HeaderNames.CacheControl, cacheControlHeaderValue);
+                }
+            });
+
+        app.UseRouting();
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapRazorPages();
+        });
+    }
+}
+```
+
+```cshtml
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="keywords" content="ASP.NET Core, C#, CSS, HTML, Microsite, Microsoft Azure, Nachbau, Optimierung" />
+    <meta name="description" content="Individuelle Bewerbung; Beweisführung durch Einzelanfertigung." />
+    <title>@ViewData["Title"]</title>
+    <link rel="icon" href="~/favicon.ico" />
+    <environment include="Development">
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    <header class="masthead">
+        <a href="https://github.com/nikita-sharov/acp" title="Quellcode statt Barcode">
+            <img class="masthead-logo" src="~/img/logo.svg" alt="Logo" />
+        </a>        
+        <div class="masthead-slogan">Gemeinsam<br />weiter gehen.</div>
+    </header>
+    <div class="container">
+        <aside>
+            <partial name="_Sidebar" />
+        </aside>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>
+```
+
+```css
+.masthead {
+    background-color: var(--bright-red);
+}
+
+.masthead-logo {
+    margin-left: 60px;
+    position: absolute;
+    width: 120px;
+}
+
+.masthead-slogan {
+    color: var(--pure-white);
+    font-family: "Apex Rounded Medium", sans-serif;
+    font-size: 90px;
+    line-height: 1;
+    margin-left: 398px;
+    padding: 71px 60px 49px;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    width: 398px;
+    background-color: var(--light-gray);
+}
+
+.killer-argument-illustration {
+    margin-top: -170px;
+}
+
+.killer-argument::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: var(--dark-gray);
+    margin-top: 40px;
+    display: block;
+}
+```
+
 
 https://jeremylindsayni.wordpress.com/2019/02/18/adding-middleware-to-your-net-core-mvc-pipeline-that-formats-and-indents-html-output/
 
@@ -64,3 +191,27 @@ Mehr Rechte, mehr Pflichten; mehr Macht, mehr Verantwortung.
 Geduld aber bringt Erfahrung; Erfahrung aber bringt Hoffnung; Römer 5:4 / LUT
 
 Nicht darum, daß wir es nicht Macht haben, sondern daß wir uns selbst zum Vorbilde euch gäben, uns nachzufolgen. Und da wir bei euch waren, geboten wir euch solches, daß, so jemand nicht will arbeiten, der soll auch nicht essen. Denn wir hören, daß etliche unter euch wandeln unordentlich und arbeiten nichts, sondern treiben Vorwitz.
+
+Der www.acp.at link auf karierre.at ist broken.
+
+Mein Angebot:
+
+- Ortsunabhängige Entwicklung
+
+Mein Profil
+
+- Mehrjährige Berufserfahrung
+
+> Das gebotene monatliche Bruttogehalt liegt bei (mind.) 3.300 - je nach relevanter Arbeitserfahrung und Qualifikation.
+
+Ändert sich das gebotene *Mindest*-Bruttogehalt je nach relevanter Arbeitserfahrung und Qualifikation?
+
+Soll das ein Hinweis auf die
+
+Anders formuliert:  
+
+Sollte das einen Hinweis auf die Bereitschaft zur kollektivvertraglichen Überzahlung darstellen? Die vorliegende Formulierung lässt einen Mindestwert (kleinstmöglicher Wert) variabel erscheinen:
+
+Je nach relevanter Arbeitserfahrung und Qualifikation liegt das gebotene monatliche Mindestgehalt bei € 3.300,- brutto.
+
+(Arbeitsrechtlich ist jenes Entgelt anzugeben, das als Mindestgrundlage für die Arbeitsvertragsverhandlungen dienen soll.)
