@@ -104,7 +104,7 @@ public class Startup
 
 Razor
 
-```cshtml
+```razor
 <!DOCTYPE html>
 <html lang="de">
 <head>
