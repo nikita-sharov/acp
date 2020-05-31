@@ -48,6 +48,8 @@ public class Startup
 }
 ```
 
+Razor
+
 ```cshtml
 <!DOCTYPE html>
 <html lang="de">
@@ -83,6 +85,8 @@ public class Startup
 </body>
 </html>
 ```
+
+CSS
 
 ```css
 .masthead {
