@@ -44,15 +44,19 @@ Razor
 
 ## Audits
 
-Performed by [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) (via Chrome DevTools, for Desktop Devices)
+Performed by [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) (via Chrome DevTools, for Desktop Devices) 
+
+### Original
+
+https://jobs.acp.at/Job/7382
 
 ![Lighthouse report results](media/full-stack-developer.azurewebsites.net-20200601T165713.png)
 
-[Report](media/full-stack-developer.azurewebsites.net-20200601T165713.html)
+[Report](https://googlechrome.github.io/lighthouse/viewer/?gist=a9d93d5c473c09a1d1434ad22f7ff7e1)
 
 ![Lighthouse report results](media/jobs.acp.at-20200601T165515.png)
 
-[Report](media/jobs.acp.at-20200601T165515.html)
+[Report](https://googlechrome.github.io/lighthouse/viewer/?gist=6aaff613c4c30812fae1e3759997b444)
 
 https://jeremylindsayni.wordpress.com/2019/02/18/adding-middleware-to-your-net-core-mvc-pipeline-that-formats-and-indents-html-output/
 
