@@ -1,106 +1,8 @@
-# acp
+# ACP
 
 Job application in code
 
-
-
-CSS
-
-```css
-.masthead {
-    background-color: var(--bright-red);
-}
-
-.masthead-logo {
-    margin-left: 60px;
-    position: absolute;
-    width: 120px;
-}
-
-.masthead-slogan {
-    color: var(--pure-white);
-    font-family: "Apex Rounded Medium", sans-serif;
-    font-size: 90px;
-    line-height: 1;
-    margin-left: 398px;
-    padding: 71px 60px 49px;
-}
-
-.container {
-    display: flex;
-}
-
-aside {
-    width: 398px;
-    background-color: var(--light-gray);
-}
-
-.killer-argument-illustration {
-    margin-top: -170px;
-}
-
-.killer-argument::after {
-    content: "";
-    width: 100px;
-    height: 1px;
-    background-color: var(--dark-gray);
-    margin-top: 40px;
-    display: block;
-}
-```
-
-
-https://jeremylindsayni.wordpress.com/2019/02/18/adding-middleware-to-your-net-core-mvc-pipeline-that-formats-and-indents-html-output/
-
-~~Miteinander weiter denken ist aus 2 Schriftarten gesetzt, die sich nur geringfügig unterscheiden; schaut nicht nach einem vollständigen Satz aus (Punkt); schlecht / inkosequent ausgerichtet~~
-
-~~Auf karriere.at überschneidet sich das Logo mit dem Photo~~
-
-```csharp
-[SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Required")]
-public class Startup
-{
-    public Startup(IConfiguration configuration)
-    {
-        Configuration = configuration;
-    }
-
-    public IConfiguration Configuration { get; }
-
-    public void ConfigureServices(IServiceCollection services) => services.AddRazorPages();
-
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-    {
-        if (env.IsDevelopment())
-        {
-            app.UseBrowserLink();
-        }
-        else
-        {
-            app.UseHsts();
-        }
-
-        app.UseDeveloperExceptionPage();
-        app.UseHttpsRedirection();
-        app.UseStaticFiles(
-            new StaticFileOptions
-            {
-                OnPrepareResponse = (context) =>
-                {
-                    const int CachePeriodInSeconds = 31_536_000; // 1 year
-                    string cacheControlHeaderValue = $"public, max-age={CachePeriodInSeconds}";
-                    context.Context.Response.Headers.Append(HeaderNames.CacheControl, cacheControlHeaderValue);
-                }
-            });
-
-        app.UseRouting();
-        app.UseEndpoints(endpoints =>
-        {
-            endpoints.MapRazorPages();
-        });
-    }
-}
-```
+## Layout
 
 Razor
 
@@ -139,6 +41,28 @@ Razor
 </body>
 </html>
 ```
+
+## Audits
+
+Performed by [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) (via Chrome DevTools, for Desktop Devices)
+
+![Lighthouse report results](media/full-stack-developer.azurewebsites.net-20200601T165713.png)
+
+[Report](media/full-stack-developer.azurewebsites.net-20200601T165713.html)
+
+![Lighthouse report results](media/jobs.acp.at-20200601T165515.png)
+
+[Report](media/jobs.acp.at-20200601T165515.html)
+
+https://jeremylindsayni.wordpress.com/2019/02/18/adding-middleware-to-your-net-core-mvc-pipeline-that-formats-and-indents-html-output/
+
+~~Miteinander weiter denken ist aus 2 Schriftarten gesetzt, die sich nur geringfügig unterscheiden; schaut nicht nach einem vollständigen Satz aus (Punkt); schlecht / inkosequent ausgerichtet~~
+
+~~Auf karriere.at überschneidet sich das Logo mit dem Photo~~
+
+
+
+
 
 ~~mailto hat keinen Empfänger~~
 
