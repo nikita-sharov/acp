@@ -12,6 +12,7 @@
     <PackageLicenseExpression>Copyright (c) 2020 Nikita Sharov</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/nikita-sharov/acp</RepositoryUrl>
     <PackageProjectUrl>https://acp.235u.net</PackageProjectUrl>
+    <AssemblyName>Acp.Career</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

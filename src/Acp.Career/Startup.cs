@@ -10,7 +10,7 @@ using Microsoft.Net.Http.Headers;
 
 namespace Acp.Career
 {
-    [SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Required")]
+    [SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Predefined")]
     public class Startup
     {
         public Startup(IConfiguration configuration)
