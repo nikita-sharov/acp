@@ -1,4 +1,4 @@
-﻿[*]
+[*]
 
 charset = utf-8
 
@@ -6,3 +6,9 @@ charset = utf-8
 
 # IDE0058: Expression value is never used
 csharp_style_unused_value_expression_statement_preference = discard_variable:silent
+
+# IDE0022: Use block body for methods
+csharp_style_expression_bodied_methods = false:silent
+
+# CA2007: Consider calling ConfigureAwait on the awaited task
+dotnet_diagnostic.CA2007.severity = silent
