@@ -16,6 +16,6 @@ namespace Acp.Career
                     string cacheControlHeaderValue = $"public, max-age={CachePeriodInSeconds}";
                     context.Context.Response.Headers.Append(HeaderNames.CacheControl, cacheControlHeaderValue);
                 }
-            });            
+            };
     }
 }

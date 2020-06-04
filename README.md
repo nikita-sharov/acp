@@ -1,10 +1,13 @@
 # ACP Career
 
+[![Build status](https://dev.azure.com/235u/acp/_apis/build/status/full-stack-developer%20-%20CI)](https://dev.azure.com/235u/acp/_build/latest?definitionId=3)
+
 This repo showcases:
 
-- expressiveness in [C#](src/Acp.Career/Startup.cs), [HTML](src/Acp.Career/Pages/Shared/_Layout.cshtml), and [CSS](src/Acp.Career/wwwroot/css/site.css)
 - law and order
-- continuous delivery (Azure Pipelines)
+- continuous delivery
+- expressiveness in [C#](src/Acp.Career/Startup.cs), [HTML](src/Acp.Career/Pages/Shared/_Layout.cshtml), and [CSS](src/Acp.Career/wwwroot/css/site.css)
+
 
 https://jobs.acp.at/Job/7382
 

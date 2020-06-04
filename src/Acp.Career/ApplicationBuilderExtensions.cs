@@ -24,9 +24,8 @@ namespace Acp.Career
                 await next();
             });
 
-
         /// <summary>
-        /// Sets the Content Security Policy response header to prevent XSS attacks.
+        /// Sets the <c>Content Security Policy</c> response header to prevent XSS attacks.
         /// </summary>
         /// <param name="app">The <see cref="IApplicationBuilder"/>.</param>
         /// <returns>A reference to this instance after the operation has completed.</returns>
