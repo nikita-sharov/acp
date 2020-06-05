@@ -36,7 +36,7 @@ https://jeremylindsayni.wordpress.com/2019/02/18/adding-middleware-to-your-net-c
 ~~Auf karriere.at überschneidet sich das Logo mit dem Photo~~
 
 
-
+W3C Markup Validation Service
 
 
 
