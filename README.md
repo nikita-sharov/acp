@@ -1,12 +1,10 @@
 # Expressiveness, law, and order
 
 [![Azure DevOps builds](https://img.shields.io/azure-devops/build/235u/acp/3?style=for-the-badge)](https://dev.azure.com/235u/acp/_build?definitionId=3)
-[![Azure DevOps releases](https://img.shields.io/azure-devops/release/235u/27f9276e-b3a3-4db4-87b8-3d67e46cd9ae/1/1?style=for-the-badge)](https://dev.azure.com/235u/acp/_release?definitionId=1)
-[![Mozilla HTTP Observatory](https://img.shields.io/mozilla-observatory/grade/acp.235u.net?publish&style=for-the-badge)](https://observatory.mozilla.org/analyze/acp.235u.net)
+[![Azure DevOps releases](https://img.shields.io/azure-devops/release/235u/27f9276e-b3a3-4db4-87b8-3d67e46cd9ae/1/1?style=for-the-badge)](https://dev.azure.com/235u/acp/_release?definitionId=1&_a=deployments)
+[![Website](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Facp.235u.net)](https://acp.235u.net)
 [![W3C Validation](https://img.shields.io/w3c-validation/html?style=for-the-badge&targetUrl=https%3A%2F%2Facp.235u.net)](https://validator.w3.org/nu/?doc=https%3A%2F%2Facp.235u.net%2F)
-
-![GitHub language count](https://img.shields.io/github/languages/count/nikita-sharov/acp?style=for-the-badge)
-[![GitHub top language](https://img.shields.io/github/languages/top/nikita-sharov/acp?style=for-the-badge)](https://github.com/search?q=repo%3A235u%2FActinUranium.Web+language%3AC%23&type=Code&ref=advsearch&l=C%23)
+[![Mozilla HTTP Observatory](https://img.shields.io/mozilla-observatory/grade/acp.235u.net?publish&style=for-the-badge)](https://observatory.mozilla.org/analyze/acp.235u.net)
 
 ## Layout
 
