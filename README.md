@@ -2,6 +2,17 @@
 
 [![Build status](https://dev.azure.com/235u/acp/_apis/build/status/full-stack-developer%20-%20CI)](https://dev.azure.com/235u/acp/_build/latest?definitionId=3)
 
+![Azure DevOps releases](https://img.shields.io/azure-devops/release/235u/27f9276e-b3a3-4db4-87b8-3d67e46cd9ae/1/1?style=for-the-badge)
+
+[![Azure DevOps builds](https://img.shields.io/azure-devops/build/235u/acp/3?style=for-the-badge)](https://dev.azure.com/235u/acp/_build/latest?definitionId=23)
+
+[![Website](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fwww.235u.net)](https://www.235u.net)
+[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m783489721-6dbd879caf5b391ffe19c142?style=for-the-badge)](https://uptimerobot.com/)
+[![Mozilla HTTP Observatory grade](https://img.shields.io/mozilla-observatory/grade/acp.235u.net?publish&style=for-the-badge)](https://observatory.mozilla.org/analyze/acp.235u.net)
+
+![GitHub language count](https://img.shields.io/github/languages/count/nikita-sharov/acp?style=for-the-badge)
+[![GitHub top language](https://img.shields.io/github/languages/top/nikita-sharov/acp?style=for-the-badge)](https://github.com/search?q=repo%3A235u%2FActinUranium.Web+language%3AC%23&type=Code&ref=advsearch&l=C%23)
+
 ## Layout
 
 ```razor
