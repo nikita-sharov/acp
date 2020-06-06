@@ -33,7 +33,7 @@ namespace Acp.Career
                 app.UseFrameOptions();
                 app.UseReferrerPolicy();
             }
-
+            
             app.UseDeveloperExceptionPage();
             app.UseHttpsRedirection();
             app.UseStaticFiles(StaticFileOptionsFactory.Create());
@@ -41,7 +41,7 @@ namespace Acp.Career
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-            });
+            });            
         }
     }
 }
