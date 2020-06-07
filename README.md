@@ -6,15 +6,13 @@
 [![W3C Validation](https://img.shields.io/w3c-validation/html?style=for-the-badge&targetUrl=https%3A%2F%2Facp.235u.net)](https://validator.w3.org/nu/?doc=https%3A%2F%2Facp.235u.net%2F)
 [![Mozilla HTTP Observatory](https://img.shields.io/mozilla-observatory/grade/acp.235u.net?publish&style=for-the-badge)](https://observatory.mozilla.org/analyze/acp.235u.net)
 
-## Layout
-
 ```razor
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <meta name="keywords" content="ASP.NET Core, C#, CSS, HTML, Microsite, Microsoft Azure, Nachbau, Optimierung" />
+    <meta name="keywords" content="ASP.NET Core, Azure App Service, C#, CSS, HTML, Microsite, Optimierung" />
     <meta name="description" content="Individuelle Bewerbung; Beweisführung durch Einzelanfertigung." />
     <title>@ViewData["Title"]</title>
     <link rel="icon" href="~/favicon.ico" />
@@ -29,8 +27,8 @@
     <header class="masthead">
         <a href="https://github.com/nikita-sharov/acp" title="Quellcode statt Barcode">
             <img class="masthead-logo" src="~/img/logo.svg" alt="Logo" />
-        </a>        
-        <div class="masthead-slogan">Miteinander<br />weiter denken.</div>
+        </a>
+        <div class="masthead-slogan">Prudentia<br />potentia est.</div>
     </header>
     <div class="container">
         <aside>
