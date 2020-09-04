@@ -11,9 +11,12 @@
 <html lang="de">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <meta name="keywords" content="ASP.NET Core, Azure App Service, C#, CSS, HTML, Microsite, Optimierung" />
-    <meta name="description" content="Individuelle Bewerbung; Beweisführung durch Einzelanfertigung." />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="keywords"
+          content="ASP.NET Core, Azure App Service, C#, CSS, HTML, Microsite, Optimierung" />
+    <meta name="description"
+          content="Individuelle Bewerbung; Beweisführung durch Einzelanfertigung." />
     <title>@ViewData["Title"]</title>
     <link rel="icon" href="~/favicon.ico" />
     <environment include="Development">
